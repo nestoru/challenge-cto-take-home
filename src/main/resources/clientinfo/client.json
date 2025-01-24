@@ -1,0 +1,84 @@
+{
+  "clientInfo": {
+    "id": "CLI123456",
+    "personalDetails": {
+      "firstName": "John",
+      "lastName": "Smith",
+      "dateOfBirth": "1965-03-15",
+      "email": "john.smith@email.com",
+      "phone": "+1-555-123-4567"
+    },
+    "address": {
+      "street": "123 Main Street",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02108",
+      "country": "USA"
+    },
+    "employmentStatus": {
+      "status": "Employed",
+      "employer": "Tech Solutions Inc.",
+      "annualIncome": 120000,
+      "yearsWithEmployer": 12
+    },
+    "financialProfile": {
+      "riskTolerance": "Moderate",
+      "investmentHorizon": "10-15 years",
+      "liquidAssets": 250000,
+      "totalNetWorth": 850000,
+      "monthlyExpenses": 4500,
+      "outstandingDebts": {
+        "mortgage": 320000,
+        "carLoan": 15000,
+        "creditCards": 2500
+      }
+    }
+  },
+  "pensionPlans": {
+    "guaranteedPlan": {
+      "planId": "GP789",
+      "provider": "Secure Retirement Solutions",
+      "planType": "Defined Benefit",
+      "planValue": 750000,
+      "guaranteedBenefits": {
+        "monthlyPension": 4200,
+        "guaranteedPeriod": "Lifetime",
+        "survivalBenefit": 2100,
+        "inflationProtection": {
+          "type": "Fixed",
+          "rate": 2.5
+        }
+      },
+      "vestingStatus": "Fully Vested",
+      "normalRetirementDate": "2030-03-15"
+    },
+    "marketBasedPlan": {
+      "planId": "MP456",
+      "provider": "Dynamic Investment Partners",
+      "planType": "Defined Contribution",
+      "planValue": 450000,
+      "investments": {
+        "equities": 65,
+        "bonds": 30,
+        "cash": 5
+      },
+      "projectedValues": {
+        "conservative": 650000,
+        "moderate": 850000,
+        "aggressive": 1050000
+      },
+      "contributionDetails": {
+        "employeeContribution": 8500,
+        "employerMatch": 6000,
+        "annualTotal": 14500
+      }
+    }
+  },
+  "lastUpdated": "2024-01-19",
+  "advisorDetails": {
+    "name": "Sarah Johnson",
+    "id": "ADV456789",
+    "phone": "+1-555-987-6543",
+    "email": "sarah.johnson@advisorfirm.com"
+  }
+}

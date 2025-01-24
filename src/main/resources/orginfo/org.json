@@ -1,0 +1,160 @@
+{
+  "organizationInfo": {
+    "organizationDetails": {
+      "organizationName": "Meridian Capital Partners",
+      "websiteUrl": "https://www.meridiancapital.com",
+      "email": "info@meridiancapital.com",
+      "phoneNumber": "+44 20 7123 4567",
+      "address": {
+        "street": "30 St Mary Axe",
+        "city": "London",
+        "postcode": "EC3A 8BF",
+        "country": "United Kingdom"
+      }
+    },
+    "platforms": {
+      "items": [
+        {
+          "name": "Aviva Platform",
+          "description": "Full-service investment platform with wide fund selection",
+          "fees": {
+            "structuredCharge": [
+              {
+                "startAmount": "0.00",
+                "endAmount": "250000.00",
+                "fee": "0.25%"
+              },
+              {
+                "startAmount": "250000.01",
+                "endAmount": "500000.00",
+                "fee": "0.20%"
+              },
+              {
+                "startAmount": "500000.01",
+                "fee": "0.15%"
+              }
+            ]
+          },
+          "features": [
+            "ISA wrapper available",
+            "Pension wrapper available",
+            "Online portfolio management",
+            "Mobile app access"
+          ]
+        },
+        {
+          "name": "Transact",
+          "description": "Premium investment platform for sophisticated investors",
+          "fees": {
+            "structuredCharge": [
+              {
+                "startAmount": "0.00",
+                "endAmount": "500000.00",
+                "fee": "0.30%"
+              },
+              {
+                "startAmount": "500000.01",
+                "endAmount": "1000000.00",
+                "fee": "0.25%"
+              },
+              {
+                "startAmount": "1000000.01",
+                "fee": "0.20%"
+              }
+            ]
+          },
+          "features": [
+            "Advanced trading capabilities",
+            "Wide range of tax wrappers",
+            "Comprehensive reporting",
+            "Family linking available"
+          ]
+        },
+        {
+          "name": "FundsNetwork",
+          "description": "Cost-effective platform with extensive fund range",
+          "fees": {
+            "structuredCharge": [
+              {
+                "startAmount": "0.00",
+                "endAmount": "1000000.00",
+                "fee": "0.25%"
+              },
+              {
+                "startAmount": "1000000.01",
+                "fee": "0.20%"
+              }
+            ]
+          },
+          "features": [
+            "Large fund selection",
+            "Regular investment options",
+            "Multiple tax wrapper options",
+            "Research tools"
+          ]
+        }
+      ]
+    },
+    "serviceProposition": {
+      "adviceType": "INDEPENDENT_FINANCIAL_ADVICE",
+      "investmentPortfolios": [
+        {
+          "name": "Cautious Growth Portfolio",
+          "description": "Low-risk portfolio focused on capital preservation with some growth potential",
+          "riskLevel": 3,
+          "targetAllocation": {
+            "bonds": 60,
+            "equities": 30,
+            "cash": 10
+          },
+          "annualManagementCharge": {
+            "percentage": "0.75%"
+          },
+          "minimumInvestment": 25000
+        },
+        {
+          "name": "Balanced Growth Portfolio",
+          "description": "Medium-risk portfolio balancing growth with stability",
+          "riskLevel": 5,
+          "targetAllocation": {
+            "equities": 60,
+            "bonds": 35,
+            "alternatives": 5
+          },
+          "annualManagementCharge": {
+            "percentage": "0.85%"
+          },
+          "minimumInvestment": 50000
+        },
+        {
+          "name": "Aggressive Growth Portfolio",
+          "description": "High-risk portfolio focused on maximum growth potential",
+          "riskLevel": 8,
+          "targetAllocation": {
+            "equities": 85,
+            "alternatives": 10,
+            "bonds": 5
+          },
+          "annualManagementCharge": {
+            "percentage": "0.95%"
+          },
+          "minimumInvestment": 75000
+        }
+      ]
+    },
+    "fees": {
+      "initialAdviceFee": {
+        "percentage": "1.00%",
+        "description": "Initial consultation and setup fee"
+      },
+      "ongoingAdviceFee": {
+        "percentage": "0.75%",
+        "description": "Annual advisory service fee"
+      },
+      "platformFee": {
+        "percentage": "0.25%",
+        "description": "Platform administration fee"
+      }
+    }
+  }
+}
