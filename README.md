@@ -7,10 +7,25 @@ This project contains the solution to an assessment. It is intended to be seen b
 4. Having the key in src/main/resources/application.properties is not recommended but if it must be there then .gitignore should be added to ensure that the key is not committed to the repo.              
 5. INFO: By default the generated recommendation.docx is stored locally in the project root which is assumed to be on purpose so that the file gets committed to the repository for review. If this is not the purpose it should be added to .gitignore.
 6. INFO: The solution can be run from CLI as follows:
+```
 ./gradlew build && ./gradlew bootRun
+```
 8. INFO: The solution can be tested with curl:
+```
 curl -X POST -F "file=@src/main/resources/userintent/userintent.txt" http://localhost:8080/api/user-request
-
+```
+9. The solution was posted as requested as well:
+```
+curl -X POST https://openings.automwrite.co.uk/apply \
+-H "Content-Type: application/json" \
+-d '{
+ "solution_url": "https://github.com/nestoru/challenge-cto-take-home",
+ "cv_url": "https://docs.google.com/document/d/1qg1LEqJgiqjfhNaPPBbbWYz_gSX1pu_zoDaNkpV2PD0",
+ "contact_details": {
+   "email": "nestor.urquiza@gmail.com"
+ }
+}'
+```
 # Automwrite Take-Home Assessment
 
 Please find a copy of the assessment in this folder, along with all relevant input files (`userintent.txt`, `client.json`, `organisation.json`, and the template `.docx`). The exercise is to provide a `.docx` output that is client-presentable.
