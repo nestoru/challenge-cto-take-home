@@ -26,6 +26,13 @@ curl -X POST https://openings.automwrite.co.uk/apply \
  }
 }'
 ```
+10. Check on the result of the submission:
+```
+Application at Automwrite submitted successfully on 2025-01-24 15:28:15
+
+Please expect a response in the next 3-5 days.
+```
+
 # Automwrite Take-Home Assessment
 
 Please find a copy of the assessment in this folder, along with all relevant input files (`userintent.txt`, `client.json`, `organisation.json`, and the template `.docx`). The exercise is to provide a `.docx` output that is client-presentable.
